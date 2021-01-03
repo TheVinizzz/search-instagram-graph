@@ -3,7 +3,7 @@ import Axios from 'axios'
 
 export default function Home(){
     const [user, setUser] = useState()
-    const [hashUser, setHashUser] = useState('vinip_borges')
+    const [hashUser, setHashUser] = useState()
 
     async function searchInstagram() {
         try{ 

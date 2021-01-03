@@ -1,20 +1,7 @@
 import React, { Fragment, lazy, Suspense } from 'react';
-//import {CircularProgress} from '@material-ui/core'
-// eslint-disable-next-line
 import { Redirect, Route, Switch } from 'react-router-dom';
 
-// eslint-disable-next-line
-//import AuthGuard from './ui/components/AuthGuard';
-
-// Aplication
 export const INDEX_ROUTE = "/";
-export const APP_ROUTE = "/app";
-
-// Authentication
-export const LOGIN_ROUTE = "/entrar";
-export const REGISTER_ROUTE = "/cadastro";
-
-export const CHAT_ROUTE = "/app/chat";
 
 const routesConfig = [
     {
